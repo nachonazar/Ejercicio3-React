@@ -3,10 +3,14 @@ import Informacion from "../Informacion";
 
 function App() {
   return (
-    <h1 className="text-center my-5">
+    <>
+    <div className="text-center my-5">
+      <h1>
       Hello
       <Informacion></Informacion>
     </h1>
+    </div>
+    </>
   );
 }
 
